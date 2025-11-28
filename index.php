@@ -1,2 +1,4 @@
-<?php echo "Site rodando via Render PHP!"; ?>
+<?php
+echo "PHP habilitado!";
+
 
