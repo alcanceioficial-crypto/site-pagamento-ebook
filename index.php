@@ -1,5 +1,5 @@
 <?php
-echo "PHP DETECTADO!";
-;
+echo "PHP habilitado!";
+
 
 
