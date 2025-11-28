@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ebook - R$ 2,00</title>
+    <style>
+        body { font-family: Arial; background:#f2f2f2; padding: 40px; }
+        .box {
+            background:#fff; padding:30px; max-width:400px;
+            margin:auto; border-radius:10px; text-align:center;
+        }
+        button {
+            padding:15px; font-size:18px; background:#28a745;
+            color:#fff; border:none; border-radius:10px; cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Ebook Exclusivo</h2>
+    <p>Apenas <b>R$ 2,00</b></p>
+
+    <form action="gerar-pagamento.php" method="POST">
+        <input type="hidden" name="produto" value="Ebook Especial">
+        <button type="submit">Comprar via PIX</button>
+    </form>
+</div>
+
+</body>
+</html>
